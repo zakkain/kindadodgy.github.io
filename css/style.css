@@ -293,8 +293,7 @@ section > h2 {
 
 .bio {
 }
-.twitter {
-}
+
 .tumblr {
 }
 .tumblr .post {
@@ -311,28 +310,6 @@ section > h2 {
   float: right;
   padding: 1em 0 1em 1em;
 }
-
-  .tweet_list {
-    list-style: none;
-    padding: 0;
-  }
-
-    .tweet_list li {
-      margin-bottom: 1.5em;
-      padding-bottom: 1.5em;
-      border-bottom: 1px solid rgba(51,51,51,0.3);
-    }
-
-      .tweet_list li:last-child {
-        border: 0;
-        padding-bottom: 0;
-      }
-
-      .tweet_avatar {
-        float: left;
-        margin-right: 0.5em;
-        margin-bottom: 1em;
-      }
 
 
 .tumblr_posts {
