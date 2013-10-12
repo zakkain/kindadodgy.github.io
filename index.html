@@ -19,8 +19,10 @@
   <meta name="viewport" content="width=device-width">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
+  
   <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -36,18 +38,30 @@
   <header>
     <h1 class="hero">Stephanie Dodge</h1>
   </header>
+
+  <nav>
+    <ul class="nav hero">
+      <li><a href="#">Home</a></li>
+      <li><a href="/cv">Curriculum Vitae</a></li>
+      <li><a href="http://redesignfw.tumblr.com">Blog</a></li>
+    </ul>
+  </nav>
+
   <!-- site goes here lol -->
   <div class="container">
     <section class="bio">
       <h2>Hello, you have reached the home of Stephanie Dodge on the web.</h2>
       <p>It's under construction, so please wear a hard hat and work boots.</p>
-      <p>I'm a user experience enthusiast exploring the digital sphere and its impact on social behaviours and engagement. Looking to combine my proven skills in creativity and communication with my long-standing interests in computer science and emerging technologies.</p>
+      <p>Exploring the digital sphere and its impact on social behaviours, engagement, and designs of the future. Looking to combine my proven skills in creativity and communication with long-standing interests in computer science and emerging technologies.</p>
       <p>Geek. Happy camper. Spelling aficionado. Cautiously respectful of spiders.</p>
-      <p><strong>Please leave an e-mail after the beep.</strong></p>
+      <p><strong><a href="mailto:sdodge@kindadodgy.com">Please leave an e-mail after the beep.</a></strong></p>
 
     </section>
-    <section class="twitter">
+    <section>
+      <h2>Twitter</h2>
+      <div class="twitter"></div>
     </section>
+    <!-- <section class="tumblr"></section> -->
   </div>
 
   <!---<script type="text/javascript" src="http://redesignfw.tumblr.com/js"></script>-->
@@ -59,8 +73,8 @@
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+ <!-- <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script> -->
 
   <!-- scripts concatenated and minified via build script -->
   <script src="js/plugins.js"></script>
